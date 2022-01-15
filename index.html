@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Madelyn Seibel</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/js/uikit-icons.min.js"></script>
+
+
+</head>
+
+<body uk-height-viewport="offset-top: true">
+    <style>
+        body{
+            background-image: url('back.svg');
+            background-size: cover;
+            padding-top: 3%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 3%;
+        }
+        .main-part{
+            border: solid black 3px;
+        }
+    </style>
+    <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body main-part">
+                <h2>Madelyn Seibel</h2>
+                <h5>Gettysburg College | seibma01@gettysburg.edu</h5>
+                <hr>
+                <h2>2021 Summer Research Portfolio</h2>
+                <h5>University of Pennsylvania - Perelman School of Medicine - Department of Radiation Oncology</h5>
+                <hr>
+                <p><b>1.</b> The images shown below are examples of proton radiographs. They are images captured using protons instead of traditionally used x-rays.</p>
+                <img data-src="Picture1.png" width="auto" height="auto" alt="Images of proton radiographs." uk-img>
+                <figcaption>https://physicsworld.com/a/proton-imaging-moves-a-step-closer-to-the-clinic/</figcaption>
+                <hr>
+                <p><b>2. </b>This image shows my experimental set-up to capture a proton radiograph. The yellow tube on the left-side of the below image is a proton beamline, where the proton beam is emitted.
+                The red 3D-printed tower is the object being imaged. The large instrument on the far-right of the image is a scintillator dector that detects the protons that reach its surface and have travelled through the object.
+                The invisible proton beam is turned into visible light at the white surface, and a camera within the dector captures an image of the now visible proton beam. A laptop is connected to the dector
+                and software is used to acquire and analyze the proton beam images.</p>
+                <img data-src="Picture2.jpg" width="auto" height="auto" alt="My experimental set-up." uk-img>
+                <hr>
+                <p><b>3. </b>To acquire a single radiograph of the object, it was necessary to capture four seperate images in different imaging modes and then process these images together.
+                The equation displayed below shows how the images were processed together, where each term in the equation represents one of the four images. I used MATLAB to perform this image arthmetic and acquire a proton radiograph of my object.</p>
+                <img data-src="Picture3.png" width="auto" height="auto" alt="Radiograph equation." uk-img>
+                <hr>
+                <p><b>4. </b>The below image is the final proton radiograph of the object. It provides information about the radiological thickness of the object as well as the structure. From my results and other researchers' results,
+                it appears that proton radiography can be used as an imaging method for planning proton therapy.</p>
+                <img data-src="Picture4.png" width="auto" height="auto" alt="Final result." uk-img>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
